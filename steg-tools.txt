@@ -1,0 +1,19 @@
+1. Steghide:
+
+embedding a file:
+steghide embed -cf <filename> -ef emb.txt
+                  (profile.jpg)
+
+
+extracting the embedded file:
+steghide extract -sf <filename>
+
+
+2. Stegosuite
+
+embedding a file/text :
+stegosuite embed -k my_secret_key -m "My secret message" <filename>
+stegosuite embed -k my_secret_key -f <filename_to_embed> <outfile> 
+
+extracting a file/text:
+stegosuite extract <filename> -k my_secret_key

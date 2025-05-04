@@ -1,0 +1,2 @@
+turning off windows security realtime protection in powershell:
+  Set-MpPreference -DisableRealtimeMonitoring $true
